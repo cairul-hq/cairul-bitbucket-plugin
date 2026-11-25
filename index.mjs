@@ -13,7 +13,7 @@ import {
   verdict,
   workURL,
   z,
-} from '@cairul/plugin-kit';
+} from '@cairul/pdk';
 
 export default function bitbucket(options) {
   const api = connection(options, {
